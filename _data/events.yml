@@ -1,5 +1,351 @@
-- title: Test Event
+- title: May meetup
+  description: |
+    May 28th is approaching and we're really excited.
+
+    No, not because of
+    [Kylie Minogue](https://www.youtube.com/watch?v=c18441Eh_WE)'s birthday.
+    It's time for the May Edition of the Budapest Python Meetup!
+
+    [Toptal](https://www.toptal.com/#pick-fantastic-devs) is sponsoring us again
+    and thanks to them we'll be able to provide a free drink to everyone.
+
+    If you've been to the meetup before, you've probably seen some lightning
+    talks: they're really short presentations (maximum 5 minutes) about a
+    Python-related topic.
+
+    Well, this month, we're going to have a little experiment and hold a
+    lightning talk session.
+
+    If there's a topic you want to talk about: a cool Python library you've
+    written or discovered, a Python tool that you love, an experiment you did
+    using Python…
+
+    Then please sign up for the lighting talk, either by filling in the form or
+    simply by commenting on this post.
+  url: "http://www.meetup.com/budapest-py/events/221221870/"
+  venue:
+    name: Müszi - Művelődési Szint
+    address: 1085 Budapest Blaha Lujza tér 1., Budapest, top floor, to the left
+    url: "http://maps.google.com/maps?f=q&hl=en&q=1085+Budapest+Blaha+Lujza+t%C3%A9r+1.%2C+Budapest%2C+hu"
+  datetime: 2015-05-28T18:00+02:00
+  schedule:
+    - title: Introduction talk
+      speaker:
+        name: Dóri Czapári
+      type: meta
+      datetime: 2015-05-28T18:30+02:00
+      language: en
+    - title: FUNctional Programming in Python
+      speaker:
+        name: Ördög-Andrási Judit
+        url: '#'
+        bio: >
+          Juci is a software developer at Prezi. She works in a tooling team
+          where they are responsible for the CI, monitoring and logging
+          systems of Prezi.
+      datetime: 2015-05-28T18:45+02:00
+      language: en
+      description: >
+        Functional programming has become a very popular paradigm recently. When
+        we hear the words ‘functional programming’ usually the first things that
+        come to our mind are languages like Haskell, ML or Elm. But is it
+        possible to use Python the functional way? The language claims to
+        support functional programming, let’s see how it’s done. In my
+        presentation I’m going to quickly walk you through the functional
+        toolset of Python, then we are going to see how these can be applied on
+        a widely known code kata while having fun.
+    - title: Break
+      datetime: 2015-05-28T19:15+02:00
+      type: meta
+    - title: Lightning Talk Session
+      datetime: 2015-05-28T19:45+02:00
+      type: meta
+  sponsor:
+    name: Toptal
+    url: "http://www.toptal.com/"
+    logo_url: /img/allmyles.png
+- title: April meetup
+  description: |
+    Hello everyone!
+
+    April is here and we have exciting news for you.
+
+    We’ve teamed up with the fine folks at
+    [CraftConf](http://craft-conf.com/2015) to bring you two renowned
+    international speakers: Katherine Daniels and Jeremy Edberg.
+
+    For logistical reasons out of our hands, we’re going to have to start the
+    meetup a little bit earlier than usual so make sure you arrive on time if
+    you don’t want to miss the talks.
+
+    And of course, each attendee is entitled to a free drink, generously paid
+    for by this month's sponsor, [Mito](https://mito.hu/). Thanks, Mito!
+  url: "http://www.meetup.com/budapest-py/events/221221870/"
+  venue:
+    name: Ankert
+    url: "http://maps.google.com/maps?f=q&hl=en&q=1061%2C+Paulay+Ede+u.+33.%2C+Budapest%2C+Budapest%2C+hu"
+  datetime: 2015-04-22T17:30+02:00
+  schedule:
+    - title: Introduction talk by the organizers
+      speaker:
+        name: Baptiste Mispelon
+      type: meta
+      datetime: 2015-04-22T18:00+02:00
+      language: en
+    - title: 'Press Start: Beginning a New Adventure (Job)'
+      speaker:
+        name: Katherine Daniels
+        url: 'https://twitter.com/beerops'
+        bio: >
+          [Katherine Daniels](https://twitter.com/beerops) is an operations
+          engineer at Etsy. She got her start in programming with TI-80
+          calculators back when Geocities was still cool, and these days has
+          opinions on things like 'the cloud' and 'devops'. Before escaping to
+          the world of operations at NYC-based startups, she spent a few years
+          doing QA and systems engineering in the corporate world. She lives in
+          Brooklyn with a perfectly reasonable number of cats, and in her spare
+          time can often be found rock climbing or making hot sauce.
+      datetime: 2015-04-22T18:15+02:00
+      language: en
+      description: >
+        Starting at a new company can feel overwhelming, with all the new people
+        to meet and new technology to learn. This can be especially true as a
+        member of a minority group, where we can unfortunately often feel out of
+        place even without the additional pressure of being the ‘n00b’. When
+        you’re starting a new job, what resources are available to help? How can
+        you find allies and prioritize all the side quests and meeting requests?
+        While there aren’t any guaranteed cheat codes that can make your first
+        weeks or months at a new job go flawlessly, this talk will provide a few
+        pointers and tips for making your starting adventures as successful as
+        they can be.
+    - title: Break
+      datetime: 2015-04-22T18:45+02:00
+      type: meta
+    - title: Learning Python on the job and how the cloud makes it harder
+      speaker:
+        name: Jeremy Edberg
+        url: 'http://www.jedberg.net/'
+        bio: >
+          [Jeremy (aka Jedberg)](http://www.jedberg.net/) is an angel investor
+          and advisor for various incubators and startups and was the founding
+          member of the reliability group at Netflix, the largest video
+          streaming service in the world, hosted entirely on AWS. Previously he
+          managed operations for reddit where he was responsible for reddit's
+          Amazon EC2-based platform that handled over 17 million unique visitors
+          a month and over a billion page views (at the time). Jeremy has also
+          worked as a Systems Administrator, Programmer, and Security Engineer
+          for eBay, PayPal, Sendmail and UC Berkeley. Jeremy also tech-edited
+          the highly acclaimed AWS for Dummies. He holds a Cognitive Science
+          degree from UC Berkeley.
+      datetime: 2015-04-22T19:00+02:00
+      language: en
+      description: >
+        At this meetup you'll hear how when I started at reddit in 2007 I had
+        never written a line of Python in my life, and by 2010 I was presenting
+        at Pycon. I'll talk about how I learned Python on the job and some of
+        the things I had to figure out about Python in a virtualized cloud
+        environment, something very few people had ever dealt with at that
+        point. You'll also get to hear updated results of the experiment I
+        last conducted in 2010, specifically for Pycon.
+  sponsor:
+    name: Mito
+    url: "https://mito.hu/"
+    logo_url: /img/allmyles.png
+- title: March meetup
+  description: |
+    It's time for the most exciting time of the month: the **Python Meetup Day**!
+
+    As always, we'd like to invite everyone to join us for this month's meetup and chat about our favorite programming language in a friendly and relaxed atmosphere.
+
+    Whether you're a beginner just discovering Python or you're an experienced programmer working in the industry for years, we hope to have something for you there.
+
+    Like last month, we're going to have three presentations with one of them being a 5-min lightning talk.
+
+    Our generous sponsor [Buffered](https://buffered.com/) is offering a free drink to everyone so there's really no reason not to come.
+  url: "http://www.meetup.com/budapest-py/events/221102987/"
+  venue:
+    name: Füge Udvar
+    url: "http://maps.google.com/maps?f=q&hl=en&q=Klauz%C3%A1l+u.+19%2C+VII+ker%C3%BClet%2C+Budapest%2C+hu"
+  datetime: 2015-03-26T18:00+01:00
+  schedule:
+    - title: Welcome Talk
+      speaker:
+        name: Baptiste Mispelon
+      datetime: 2015-03-26T18:30+01:00
+      language: en
+    - title: Spark & Python
+      speaker:
+        name: Julianna Göbölös-Szabó
+        url: 'https://twitter.com/gszjulcsi'
+        bio: >
+          Julcsi is data backend engineer at Prezi. She studied mathematics at
+          BUTE, then worked at Sztaki's Data Mining Group and finally ended up
+          in Prezi's data infrastructure team.
+      datetime: 2015-03-26T18:45+01:00
+      language: en
+      description: >
+        [Apache Spark](https://spark.apache.org/) is the new cool thing in the
+        world of big data, promising faster computation and better fit for
+        iterative algorithm than the traditional map reduce paradigm. My team is
+        about to introduce Spark to our big data technology stack at Prezi. In
+        my presentation I will talk about my learnings about Spark using its
+        Python API.
+    - title: Using Blender and Python to create 3D geometry
+      speaker:
+        name: Nagy Richárd
+        url: 'https://twitter.com/nagyrichard89'
+        bio: >
+          I'm a multi-disciplinary engineer.
+
+          My previous projects include building a prototype motorcycle and
+          creating 3D-printed sunglasses.
+      type: lightning
+      datetime: 2015-03-26T19:15+01:00
+      language: en
+      description: >
+        I'm going to show how programming is always "behind the scenes" in
+        creating 3D geometry, also some use cases of Python in Blender.
+    - title: SIP signaling tester
+      speaker:
+        name: Kovács Bálint
+        url: 'https://twitter.com/kovacsbalu'
+        bio: >
+          Fejlesztőként dolgozom a Gamma-nál. Kezdetben egy IVR kezelő
+          alkalmazást írtam, majd az egész rendszer automatizált funkció és
+          teljesítmény tesztelését végeztem. Az utóbbi időben Continuous
+          integration és Continuous delivery-vel foglalkozom.
+      datetime: 2015-03-26T19:45+01:00
+      language: hu
+      description: >
+        VoIP hívások tesztelése python segítségével. Előadásomban szeretném
+        bemutatni, hogyan lehet több hasznos eszközből egy rendszer átfogó
+        tesztelését automatizálni pythonnal.
+  sponsor:
+    name: Buffered
+    url: "https://buffered.com/"
+    logo_url: /img/allmyles.png
+- title: February meetup
+  description: |
+    February only has 28 days, but one of them is more special than the others: **the Python Meetup Day**!
+
+    We'd like to invite everyone, from Python beginners to seasoned experts, to join us for this month's meetup and chat about our favorite programming language in a friendly and relaxed atmosphere.
+
+    We're going to have three presentations this month, one of them being a 5-min lightning talk.
+
+    Our generous sponsor [Toptal](https://www.toptal.com/#pick-fantastic-devs) is offering a free drink to everyone so there's really no reason not to come.
+  url: "http://www.meetup.com/budapest-py/events/167310322/"
   venue:
     name: Muzikum
-    url: "#"
-  datetime: 2015-02-26T20:00Z
+    url: "http://maps.google.com/maps?f=q&hl=en&q=47.490180,19.063240"
+  datetime: 2015-02-26T19:30+01:00
+  schedule:
+    - title: Text processing tools in Python
+      speaker:
+        name: Csernai Eszter
+        url: '#'
+        bio: >
+          Eszter data scientist-ként dolgozik a GE Healthcare üzletágánál, ahol
+          szabad szöveges dokumentumokból történő információ kinyeréssel, és
+          erre épülő döntéstámogató alkalmazások fejlesztésével foglalkozik.
+
+          Ezt megelőzően olyan változatos területeken dolgozott machine learning
+          megoldások fejlesztésén, mint az informatikai biztonság,
+          társadalomtudományi felmérések, vagy pénzügyi modellezés. Eszter
+          nyelvészeti tanulmányokat folytatott az ELTE angol szakán, diplomáját
+          a Corvinus egyetem gazdaságmatematika szakán szerezte.
+      datetime: 2015-02-26T19:45+01:00
+      language: hu
+      description: >
+        Az előadásban szó lesz a kutatási témáinkról és az ezekhez kapcsolódó
+        adatfeldolgozási feladatokról, és egy példán keresztül bemutatom a
+        kedvenc Python adat-eszközeimet (pandas, scikit-learn).
+    - title: Cookiecutter - standardized project file and directory structure
+      speaker:
+        name: Zsoldos Péter
+        url: 'https://twitter.com/zsepi'
+        bio: >
+          Peter Zsoldos, or [@zsepi](https://twitter.com/zsepi), has been
+          designing, writing, releasing, and supporting/operating software
+          applications for more than ten years, at present time as a freelancer.
+          He blogs at http://zsoldosp.eu – less and less regularly due to his
+          triathlon habit.
+      datetime: 2015-02-26T20:15+01:00
+      language: en
+      description: >
+        Cookiecutter is a tool written in Python that helps a lot for instance
+        when you try to extract smaller apps or services from a monolithic
+        behemot codebase, or when writing lot of new applications. Not just for
+        Python apps!
+    - title: The Snake and the Real Estate Biz
+      speaker:
+        name: Kalman Gergely
+        url: '#'
+        bio: >
+          With a background in IT-Security, Gergely has worked as Lead Developer
+          for an Alexa Top 50 website serving several million unique visitors
+          each month. He is a diligent and motivated worker who likes to dive in
+          and get things done.
+      datetime: 2015-01-19T20:45+01:00
+      language: en
+      description: >
+        In this talk I'll explain to you why and how I wrote a software bot to
+        help me in finding a place to live in Budapest. It involved scraping,
+        real estates and the awesomeness that's Python and coding in general.
+  sponsor:
+    name: Toptal
+    url: "http://www.toptal.com/"
+    logo_url: /img/allmyles.png
+- title: January meetup
+  description: |
+    New year, new beginnings: the Budapest Python Meetup is back with new organizers.
+
+    Come listen to two great talks (one in English, one in Hungarian) and chat about Python in a relaxed and friendly atmosphere.
+
+    Drinks are on us, thanks to our wonderful sponsor [Allmyles](https://allmyles.com/).
+
+    Whether you're a seasoned Python developer or you're just a curious beginner, we'd love to have you there.
+  url: "http://www.meetup.com/budapest-py/events/167310322/"
+  venue:
+    name: Serpa Rotburger
+    url: "https://www.google.com/maps?f=q&hl=en&q=Zichy+Jen%C5%91+4,+Budapest"
+  datetime: 2015-01-19T19:00+01:00
+  schedule:
+    - title: Adatozás Pythonnal
+      speaker:
+        name: Zágoni Rita
+        url: https://twitter.com/RitaZagoni
+        bio: >
+          Python programozó vagyok a Central European University MicroData
+          kutatócsoportjában, főleg​  szövegfeldolgozással foglalkozom. Emellett
+          ​mentorálok a Pylvax ​alapozó Python workshop-sorozaton, és adathasználati
+          ​foglalkozásokat tartok civil szervezetek, újságírók számára.
+      datetime: 2015-01-19T19:15+01:00
+      language: hu
+      description: >
+        Az előadásban szó lesz a kutatási témáinkról és az ezekhez kapcsolódó
+        adatfeldolgozási feladatokról, és egy példán keresztül bemutatom a
+        kedvenc Python adat-eszközeimet (pandas, scikit-learn).
+    - title: Herbivorous snakes – adventures with Python on Raspberry Pi
+      speaker:
+        name: András Veres-Szentkirályi
+        url: https://github.com/dnet
+        bio: >
+          András Veres-Szentkirályi is interested in abusing technology in
+          various ways. He cofounded Silent Signal where he performs penetration
+          tests during the day, and also took part in bulding H.A.C.K., the
+          Budapest hackerspace, where you can usually find him in the evening,
+          trying make some piece of hardware perform something it wasn't
+          designed for.
+      datetime: 2015-01-19T20:00+01:00
+      language: en
+      description: >
+        After the Arduino, Raspberry Pi finally had the computing power to run
+        Linux and Python, while still providing peripherals aimed at hardware
+        hackers. However, as a device halfway between microcontroller boards
+        and PCs, is obviously differs from both; some of these will be presented
+        along with some lessons that may be useful even if you'll always develop
+        software that runs on beefier hardware.
+  sponsor:
+    name: Allmyles
+    url: "https://allmyles.com"
+    logo_url: /img/allmyles.png

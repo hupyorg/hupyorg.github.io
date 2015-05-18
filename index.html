@@ -2,9 +2,32 @@
 layout: default
 title: HuPy
 ---
-<h2>Upcoming Events:</h2>
-<ul>
+<ul class="events list-unstyled col-md-8 col-md-offset-2">
   {% for event in site.data.events %}
-  <li><strong>{{ event.datetime | date: "%a, %b %d, %k:%M" }}</strong>: {{ event.title }} at <a href="{{ event.venue.url }}">{{ event.venue.name }}</a></li>
+  <li id="{{ event.title | slugify }}">
+    <header>
+      <h2><a href="{{ event.url }}">{{ event.title }}</a>
+      <small><a href="#{{ event.title | slugify }}">{{ event.datetime | date: "%a, %b %d, %k:%M" }}</a> at <a href="{{ event.venue.url }}">{{ event.venue.name }}</a></small></h2>
+    </header>
+    <p>{{ event.description | markdownify }}</p>
+    <ul class="schedule list-unstyled">
+      {% for item in event.schedule %}
+      <li>
+        <h4>
+          {{ item.datetime | date: "%k:%M" }}
+          {% if item.speaker %}
+            <a class="speaker" href="{{ item.speaker.url }}">{{ item.speaker.name }}</a>:
+          {% endif %}
+          {{ item.title }}
+          {% if item.language %}
+            <span class="language-code">{{ item.language }}</span>
+          {% endif %}
+        </h4>
+        <p class="bio">{{ item.speaker.bio }}</p>
+        <p class="description">{{ item.description }}</p>
+      </li>
+      {% endfor %}
+    </ul>
+  </li>
   {% endfor %}
 </ul>
